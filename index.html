@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convertisseur € → CFA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Convertisseur Gamer</h1>
+    <p>Convertis rapidement les euros en francs CFA 💸</p>
+  </header>
+
+  <main>
+    <main>
+  <section class="convert-box">
+    <h2>Convertisseur de devises</h2>
+
+    <div class="form-group">
+      <input type="number" id="inputValue" placeholder="Montant" />
+    </div>
+
+    <div class="form-group">
+      <select id="fromCurrency">
+        <option value="EUR">EUR (€)</option>
+        <option value="USD">USD ($)</option>
+        <option value="CFA">CFA (₣)</option>
+      </select>
+
+      <span style="color: #00ff99; font-weight: bold;">→</span>
+
+      <select id="toCurrency">
+        <option value="CFA">CFA (₣)</option>
+        <option value="USD">USD ($)</option>
+        <option value="EUR">EUR (€)</option>
+      </select>
+    </div>
+
+    <button onclick="convertir()">Convertir</button>
+    <p id="resultat"></p>
+  </section>
+</main>
+
+  </main>
+    
+
+  <footer>
+    <p>© 2025 Beni | Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
