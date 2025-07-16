@@ -92,3 +92,104 @@ footer {
   font-size: 0.9rem;
   background-color: #0d0d0d;
 }
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid #00ff99;
+  color: #00ff99;
+  border-radius: 6px;
+}
+#contact {
+  background-color: #1a1a1a;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #00ff99;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #00ff99;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input, #contact textarea {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #00ff99;
+  color: #00ff99;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+#contact button {
+  background-color: #00ff99;
+  color: #0d0d0d;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background-color: #00cc88;
+}
+select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #0d0d0d;
+  border: 1px solid #00ff99;
+  border-radius: 6px;
+  color: #00ff99;
+  box-shadow: 0 0 10px #00ff99aa;
+  transition: 0.3s ease;
+}
+
+select:hover,
+select:focus {
+  border-color: #00cc88;
+  box-shadow: 0 0 15px #00cc88;
+}
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: #00ff99;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #00ff99;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #00ff99;
+}
+
+.social-links a:hover {
+  background-color: #00ff99;
+  color: #0d0d0d;
+  box-shadow: 0 0 15px #00ff99;
+}
