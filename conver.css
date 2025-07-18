@@ -1,0 +1,83 @@
+body {
+  background-color: #0d0d0d;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ff99;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  text-shadow: 0 0 10px #00ff99;
+}
+
+a {
+  color: #00ff99;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #00ff99;
+  color: #000;
+  background-color: #00ff99;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+
+input, textarea {
+  width: 300px; /* largeur fixe pour tous */
+  max-width: 90%;
+  padding: 10px;
+  border: 2px solid #00ff99;
+  border-radius: 10px;
+  background-color: #000;
+  color: #00ff99;
+  font-family: 'Orbitron', sans-serif;
+  box-sizing: border-box;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #00ff99;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00cc77;
+  box-shadow: 0 0 10px #00ff99;
+} 
+.contact-link {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid #00ff99;
+  border-radius: 12px;
+  color: #00ff99;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ff99;
+  margin-top: 10px;
+}
+
+.contact-link:hover {
+  background-color: #00ff99;
+  color: #000;
+  box-shadow: 0 0 20px #00ff99;
+  transform: scale(1.05);
+}
